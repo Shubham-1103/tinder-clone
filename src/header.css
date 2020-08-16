@@ -1,0 +1,25 @@
+/*
+.header is basically class name for which we want to provide styling with css
+
+it pushes every thing in a single row.
+1
+2 --------> 123
+3
+*/
+
+.header{
+    display: flex; /* single row */
+    justify-content: space-between; /* gives space between the children -> 1 2 3*/
+    border-bottom: 1px solid #f9f9f9;
+    align-items: center;
+}
+
+.header__logo{
+    height: 40px;
+    object-fit: contain; /* keeps the aspect ratio */
+    width: 90px;
+}
+
+.header__icon{
+    padding: 20px;
+}
